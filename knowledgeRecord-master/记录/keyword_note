@@ -1,0 +1,98 @@
+---------------已记录----------------
+insight：提供行情数据
+tick时间（系统相对时间）
+Disruptor  ---待完善
+delayQueue
+TimeUtil.convert()
+Vector
+hash(elem)  = elem.hashCode()  + 31 XXX
+int elem = hash(elem) - 31 XXX
+ConcurrentMap
+单例模式
+java.util.concurrent.atomic
+maven pom.xml文件各类配置信息
+乐观锁和悲观锁 
+
+
+//----2019.6.5
+
+
+虚拟机
+csv数据落地
+//-----2019.6.5
+定时任务脚本(重要)
+timerTask  delaySecondes
+timer.schedule---这个改成线程池方式执行
+
+zoomkeeper
+
+//-----2019.06.10
+访问Linux工具
+使用Linux
+crontab 定时命令
+
+//-----2019.06.11
+Timer类，定时调用 定时调度器
+线程池 线程池大小怎么预估
+mvc怎么引用的
+
+dubbo
+zoomkeeper之开源客户端ZkClient
+三种创建maven项目的区别，什么时候用哪种
+//-----2019.06.12
+引入日志，引用配置文件（日志初始化的问题）serviceConfig服务程序设置
+ARK
+
+
+线程池自定义：
+	计算机密集型和IO密集型
+	BlockingQueue,
+	队列两种模式：block,spin
+	
+sql:count*  和count字段
+
+
+//------2019.06.20
+回顾抽象类父类和子类之间的关系
+（子类没有全部实现父类方法，子类自己有抽象方法。。）
+抽象类和接口
+四种类型引用：强引用，软引用，弱引用，虚引用
+服务自发现
+
+
+
+//-------2019.6.25------
+
+//-------2019.6.28------------------
+netty框架
+maven  打jar包问题
+InetAddress ----------------
+@Deprecated注解--弃用    -----------
+
+//---------2019.7.1----------
+心跳机制
+
+Serializable、transient、readResolve()
+
+//----------2019.7.3----------
+javasisit  动态编程
+
+//---------2019.7.16---------
+Zookeeper
+dubbo
+Solr 集群
+java  服务器搭建-阿里云服务器
+Python爬虫
+//---------2019.7.18-----------
+lambda
+IntStream、LongStream、DoubleStream
+java8的新特性
+ scala函数式语言
+ 
+ //------------2019.7.30
+ 
+ 挂载程序
+ Java的反射机制
+
+
+	

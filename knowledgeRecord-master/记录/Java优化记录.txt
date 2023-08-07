@@ -1,0 +1,8 @@
+【java优化记录】
+1.关于try(创建流)catch(异常)：Java7之后，在try()里面创建流，可以自动管理资源，会实现AutoCloseable；
+2.  zzz.equal("xxx")  建议常数string放括号；
+3.并发情况下
+	1）时间的处理:可以使用LocalDate，这个类不可变，线程安全，用equal比较。
+	2）	TimeUnit类中的sleep() ：设置等待时间可读性更好；java.util.concurrent包
+		Thread.sleep()：是一个静态方法，暂停线程时不会释放锁，抛出中断异常（如果有线程中断了当前线程）。等待时间可读性差；
+4.实现closeable接口:调用close()方法可释放对象保存的资源（如打开的文件），关闭此流并释放与此流关联的的所有系统的资源，若已关闭，则调用方法无效；
